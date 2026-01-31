@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4D04E;
+    font-family: 'Figtree';
+}
+
+article{
+    min-height: 100vh;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-info{
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 8px 8px  0 black;
+    padding: 24px;
+    max-width: 384px;
+    height: 522px;
+    border: #000000 1px solid;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.card-info h2{
+    font-weight:800;
+    font-size: 14px;
+    color: #000000;
+    width: 80px;
+    padding: 4px 12px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.publish-date{
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(216, 100%, 1%);
+}
+
+.card-info h1{
+    font-weight: 800;
+    font-size: 24px;
+    width: 336px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.card-info h1:hover,
+.card-info h1:focus{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.card-description{
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.author img{
+    width: 32px;
+    height: 32px;
+}
+
+.author p{
+    font-weight:800;
+    font-size: 14px;
+    color: hsl(216, 100%, 1%);
+}
+.attribution{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(216, 100%, 1%);
+    margin-top: 10px;
+    padding-bottom: 12px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
